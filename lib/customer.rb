@@ -14,6 +14,8 @@ class Customer
     @@all
   end
  
+ # OBJECT RELATIONSHIPS - #new_meal, #meals, #waiters
+ 
  # Returns an Array of Meal instances associated with this customer
   def meals
     Meal.all.select do |meal|
