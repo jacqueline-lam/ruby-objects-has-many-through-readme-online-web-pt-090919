@@ -13,6 +13,8 @@ class Waiter
     @@all
   end
   
+  # OBJECT RELATIONSHIPS
+  
   # Initialize a meal using the current Waiter instance, 
     # a provided Customer instance and a total and tip
   def new_meal(customer, total, tip=0)
